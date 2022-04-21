@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: blueviolet;
+  background-image: url(./images/ilulustration.png);
+  background-position: bottom -40px right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 100vh;
+}
+
+.nav-bar {
+  background: chartreuse;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  height: 13.7vh;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.nav-bar img {
+  height: 15px;
+}
+
+h1 {
+  color: antiquewhite;
+}
+
+.my-name {
+  color: black;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  height: 35vh;
+  padding-top: 20vh;
+  padding-bottom: 0;
+  align-items: flex-end;
+  display: flex;
+  padding-right: 24px;
+}
+
+.my-job h3 {
+  color: blue;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 32px;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.job-details {
+  color: aqua;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.social-icons {
+  display: flex;
+  height: 10vh;
+  padding-top: 1vh;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
